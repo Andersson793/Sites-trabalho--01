@@ -5,17 +5,18 @@ body {
   }
   
   header {
-    background-color: #333;
+    background-color: black;
     color: white;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 70px;
   }
 
   .navigation-links li{
     display: inline-block;
+    font-weight: bold;
   }
 
   section img{
@@ -52,6 +53,20 @@ body {
 
   section button:last-of-type a{
     color: black;
+  }
+
+  .box-servicos .servicos{
+    margin-bottom: 5rem;
+  }
+
+  .box-servicos .servicos img{
+    max-width: 350px;
+    margin-bottom: .4rem;
+    border-radius: 13px;
+  }
+
+  .box-servicos .servicos p{
+    font-weight: bold;
   }
 
   .form-section{
@@ -106,8 +121,7 @@ body {
   }
   
   main {
-    max-width: 800px;
-    margin: 0 auto;
+    margin: 0 3rem;
     padding: 20px;
   }
   
